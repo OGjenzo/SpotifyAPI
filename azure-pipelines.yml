@@ -47,3 +47,7 @@ stages:
 
 
 
+    - task: AzureWebAppContainer@1
+      inputs:
+        azureSubscription: 'Azure for Students(1dd7f918-fa8e-4ea8-9f9d-b7a422505524)'
+        appName: 'spotifyapicontenerized'
